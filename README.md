@@ -11,11 +11,9 @@ Simulador de software empresarial  donde se simula ser un gerente o administrado
 
 # **Iniciar El Programa**
 
-Este proyecto fue escrito en C#. Para poder acceder este programa se necesita un IDE que pueda correr C# (idealmente Visual Studio).
-Para iniciar, darle al boton de correr codigo. Esto va a abrir el command line, donde se le va a dar la bienvenida al programa. 
-Para proseguir, presione uno de los siguientes comandos: 
+Este proyecto fue escrito en C#. Para poder acceder este programa se necesita un IDE que pueda correr C# (idealmente Visual Studio). Para iniciar, darle al botón de correr código. Esto va a abrir el command line, donde se le va a dar la bienvenida al programa. Para proseguir, presione uno de los siguientes comandos: 
 
-**NOTA: Como el programa esta basado en comandos de texto, es importante que escriba los comandos bien para que la funcion deseada aparesca.**
+**NOTA: Como el programa está basado en comandos de texto, es importante que escriba los comandos bien para que la función deseada aparezca.**
 
 **Comando Para Iniciar El Programa:**
 
@@ -27,7 +25,7 @@ Para proseguir, presione uno de los siguientes comandos:
 
 **NOTA: El comando x funciona en cualquier momento del programa.**
 
-# **Los 8 Modulos y sus Comandos:**
+# **Los 8 Módulos y sus Comandos:**
 
 ## **Recursos Humanos**
 
