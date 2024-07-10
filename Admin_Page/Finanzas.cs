@@ -24,7 +24,7 @@ namespace Admin_Page
                 Console.WriteLine();
                 Console.WriteLine("consultaFinanzas: Chatea con un chtabot para cualquier duda respecto a las finanzas de tu empresa.");
                 Console.WriteLine();
-                Console.WriteLine("presentacionFinanzas: genera una presentacion financiera con asistente IA incluido.");
+                Console.WriteLine("presentacionFinanzas: Genera una presentacion financiera con asistente IA incluido.");
                 Console.WriteLine();
                 Console.WriteLine("cerrarFinanzas: Cerrar el modulo de finanzas");
                 Console.WriteLine();

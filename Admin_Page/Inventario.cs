@@ -21,11 +21,11 @@ namespace Admin_Page
                 Console.WriteLine();
                 Console.WriteLine("planPremiumPlus: Edita y accede a los ajustes del plan Premium Plus.");
                 Console.WriteLine();
-                Console.WriteLine("planPremiumPlusNomina: Edita y accede a los ajustes del plan Premium Plus Nomina .");
+                Console.WriteLine("planPremiumPlusNomina: Edita y accede a los ajustes del plan Premium Plus Nomina.");
                 Console.WriteLine();
-                Console.WriteLine("historialInventario: chequea el historial de todos los clientes y sus planes");
+                Console.WriteLine("historialInventario: chequea el historial de todos los clientes y sus planes.");
                 Console.WriteLine();
-                Console.WriteLine("cerrarInventario: cerrar el modulo de inventario");
+                Console.WriteLine("cerrarInventario: cerrar el modulo de inventario.");
                 Console.WriteLine();
                 Console.WriteLine("Ingresa 'x' para salir del programa.");
                 Console.WriteLine();

@@ -12,9 +12,9 @@ namespace Admin_Page
             while (chosenActionVentas != "x")
             {
                 Console.WriteLine("------------------------------------------------------------------------------------------");
-                Console.WriteLine("Bienvenido al panel de ventas");
+                Console.WriteLine("Bienvenido al panel de ventas.");
                 Console.WriteLine();
-                Console.WriteLine("nuevaVenta: Generar una nueva venta");
+                Console.WriteLine("nuevaVenta: Generar una nueva venta.");
                 Console.WriteLine();
                 Console.WriteLine("eliminarVenta: Elimina una venta dentro del programa.");
                 Console.WriteLine();

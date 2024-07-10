@@ -12,21 +12,21 @@ namespace Admin_Page
             while (chosenActionCompras != "x")
             {
                 Console.WriteLine("------------------------------------------------------------------------------------------");
-                Console.WriteLine("Bienvenido al panel de compras");
+                Console.WriteLine("Bienvenido al panel de compras.");
                 Console.WriteLine();
-                Console.WriteLine("nuevaCompra: Generar nueva compra");
+                Console.WriteLine("nuevaCompra: Generar nueva compra.");
                 Console.WriteLine();
-                Console.WriteLine("eliminarCompra: Elimina una compra del sistema");
+                Console.WriteLine("eliminarCompra: Elimina una compra del sistema.");
                 Console.WriteLine();
                 Console.WriteLine("editarCompra: Editar los detalles de una compra.");
                 Console.WriteLine();
-                Console.WriteLine("historialCompra: Accede al historial entero de compras");
+                Console.WriteLine("historialCompra: Accede al historial entero de compras.");
                 Console.WriteLine();
-                Console.WriteLine("chatCompra: Ponte en contacto con cualquier cliente relacionado a una compra");
+                Console.WriteLine("chatCompra: Ponte en contacto con cualquier cliente relacionado a una compra.");
                 Console.WriteLine();
-                Console.WriteLine("reporteCompra: genera un reporte de una compra con asistente IA incluido");
+                Console.WriteLine("reporteCompra: genera un reporte de una compra con asistente IA incluido.");
                 Console.WriteLine();
-                Console.WriteLine("cerrarCompra: Cerrar el modulo de compras");
+                Console.WriteLine("cerrarCompra: Cerrar el modulo de compras.");
                 Console.WriteLine();
                 Console.WriteLine("Ingresa 'x' para salir del programa.");
                 Console.WriteLine();
