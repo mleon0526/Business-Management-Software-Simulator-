@@ -4,6 +4,7 @@ namespace Admin_Page
 {
     internal class Principal
     {
+
         public static void Main()
         {
             Console.WriteLine("Bienvenido a Adm Cloud");
@@ -99,7 +100,7 @@ namespace Admin_Page
         public static void WaitForCompletion()
         {
             string subAction = "";
-            while (subAction != "listo")
+            while (subAction != "listo") 
             {
                 Console.WriteLine("Ingresa 'listo' para completar el cambio.");
                 subAction = Console.ReadLine();
@@ -117,5 +118,14 @@ namespace Admin_Page
                 }
             }
         }
+
+        public static void editarEmpleados()
+        {
+
+            Empleados felipeHernandez = new Empleados("Felipe Hernández", "fhernandez@fortechint.com", "03700973088", "8299193941", "778107623", "Banco Popular", "Ahorro", 5000, 40, 200000);
+
+            felipeHernandez.displayEmployeeDetails();
+        }
+
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="recursoHumano.cs" />
     <Compile Include="principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="trabajadores.cs" />
     <Compile Include="ventas.cs" />
   </ItemGroup>
   <ItemGroup>

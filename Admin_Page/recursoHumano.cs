@@ -53,6 +53,7 @@ namespace Admin_Page
                         Console.WriteLine();
                         Console.WriteLine("------------------------------------------------------------------------------------------");
                         Console.WriteLine("Editando el perfil de un empleado...");
+                        Principal.editarEmpleados();
                         Principal.WaitForCompletion();
                         Console.WriteLine();
                         break;
@@ -101,5 +102,6 @@ namespace Admin_Page
             Environment.Exit(0); //exit program when x clicked
 
         }
+
     }
 }
