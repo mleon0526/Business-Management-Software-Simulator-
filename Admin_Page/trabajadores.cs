@@ -5,19 +5,19 @@ namespace Admin_Page
     internal class Empleados
     {
         //existing variables
-        public string fullName;
-        public string email;
-        public string fiscalID;
-        public string phoneNumber;
-        public string bankAccountNumber;
-        public string bankID;
-        public string bankAccountType;
-        public int salary;
+        private string fullName;
+        private string email;
+        private string fiscalID;
+        private string phoneNumber;
+        private string bankAccountNumber;
+        private string bankID;
+        private string bankAccountType;
+        private int salary;
 
         //variables I would like to find
 
-        public int hoursWorked;
-        public int wage;
+        private int hoursWorked;
+        private int wage;
 
         public Empleados(string name, string em, string fID, string phN, string bnAccNb, string bnID, string bnAccTy, int sal, int hrW, int w)
         {
