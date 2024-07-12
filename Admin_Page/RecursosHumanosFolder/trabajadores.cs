@@ -5,19 +5,19 @@ namespace Admin_Page
     internal class Empleados
     {
         //existing variables
-        private string fullName;
-        private string email;
-        private string fiscalID;
-        private string phoneNumber;
-        private string bankAccountNumber;
-        private string bankID;
-        private string bankAccountType;
-        private int salary;
+        protected string fullName;
+        protected string email;
+        protected string fiscalID;
+        protected string phoneNumber;
+        protected string bankAccountNumber;
+        protected string bankID;
+        protected string bankAccountType;
+        protected int salary;
 
         //variables I would like to find
 
-        private int hoursWorked;
-        private int wage;
+        protected int hoursWorked;
+        protected int wage;
 
         public Empleados(string name, string em, string fID, string phN, string bnAccNb, string bnID, string bnAccTy, int sal, int hrW, int w)
         {
@@ -31,28 +31,6 @@ namespace Admin_Page
             salary = sal;
             hoursWorked = hrW;
             wage = w;
-        }
-
-        public void calculateHoursWorked(int numberOfHours)
-        {
-            hoursWorked += numberOfHours;
-            Console.WriteLine($"{fullName} a trabajado por un total de {numberOfHours} horas.");
-        }
-
-        public double calculateWage(bool restartHours = true)
-        {
-            wage = salary * hoursWorked;
-            Console.WriteLine($"{fullName} gana un total de {wage} dolares.");
-
-            if (restartHours)
-                hoursWorked = 0;
-            return wage;
-
-        }
-
-        public void findWereToDepositSalary()
-        {
-            Console.WriteLine($"Al empleado {fullName} se le deposita en el {bankID} a la cuenta #{bankAccountNumber} cuenta {bankAccountType}.");
         }
 
         public void displayEmployeeDetails()
@@ -69,6 +47,27 @@ namespace Admin_Page
             Console.WriteLine($"{"Tipo de Cuenta:",-20} {bankAccountType}");
             Console.WriteLine("------------------------------------------------------------------------------------------");
         }
+
+        public void detallesEmpleados()
+        {
+
+            Empleados FelipeHernandez = new Empleados("Felipe Hernández", "fhernandez@fortechint.com", "03700973088", "8299193941", "778107623", "Banco Popular", "Ahorro", 5000, 40, 200000);
+
+            FelipeHernandez.displayEmployeeDetails();
+
+            Empleados EstebanRey = new Empleados("Felipe Hernández", "fhernandez@fortechint.com", "03700973088", "8299193941", "778107623", "Banco Popular", "Ahorro", 5000, 40, 200000);
+
+            EstebanRey.displayEmployeeDetails();
+
+            Empleados JoshuaDecastro = new Empleados("Felipe Hernández", "fhernandez@fortechint.com", "03700973088", "8299193941", "778107623", "Banco Popular", "Ahorro", 5000, 40, 200000);
+
+            JoshuaDecastro.displayEmployeeDetails();
+
+            Empleados MatiasLeon = new Empleados("Felipe Hernández", "fhernandez@fortechint.com", "03700973088", "8299193941", "778107623", "Banco Popular", "Ahorro", 5000, 40, 200000);
+
+            MatiasLeon.displayEmployeeDetails();
+        }
+
 
     }
 }

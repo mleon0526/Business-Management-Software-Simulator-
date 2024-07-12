@@ -1,5 +1,6 @@
 ﻿
 using System;
+using Admin_Page.RecursosHumanosFolder;
 
 namespace Admin_Page
 {
@@ -24,7 +25,7 @@ namespace Admin_Page
                 Console.WriteLine();
                 Console.WriteLine("escribirEmpleado: Escribele un mensaje privado a un empleado que sea de importancia o de suma importancia.");
                 Console.WriteLine();
-                Console.WriteLine("cerrarEmpleado: Cerrar la pagina de empleados");
+                Console.WriteLine("cerrarEmpleado: Cerrar la pagina de detallesEmpleados");
                 Console.WriteLine();
                 Console.WriteLine("Ingresa 'x' para salir del programa.");
                 Console.WriteLine();
@@ -53,7 +54,7 @@ namespace Admin_Page
                         Console.WriteLine();
                         Console.WriteLine("------------------------------------------------------------------------------------------");
                         Console.WriteLine("Editando el perfil de un empleado...");
-                        Principal.editarEmpleados();
+                        EditarDetallesEmpleados.editarEmpleados();
                         Principal.WaitForCompletion();
                         Console.WriteLine();
                         break;

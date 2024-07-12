@@ -49,10 +49,11 @@
     <Compile Include="Finanzas.cs" />
     <Compile Include="Inventario.cs" />
     <Compile Include="Proyectos.cs" />
-    <Compile Include="recursoHumano.cs" />
+    <Compile Include="RecursosHumanosFolder\EditarDetallesEmpleados.cs" />
+    <Compile Include="RecursosHumanosFolder\recursoHumano.cs" />
     <Compile Include="principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="trabajadores.cs" />
+    <Compile Include="RecursosHumanosFolder\trabajadores.cs" />
     <Compile Include="ventas.cs" />
   </ItemGroup>
   <ItemGroup>

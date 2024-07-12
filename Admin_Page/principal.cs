@@ -21,7 +21,7 @@ namespace Admin_Page
                     Console.WriteLine();
                     Console.WriteLine("Bienvenido al panel principal de Adm Cloud. Escribe uno de los siguientes comandos para que puedas acceder a cada uno de los modulos disponibles:");
                     Console.WriteLine();
-                    Console.WriteLine("empleados: Accede al panel de con los perfiles del manejo de empleados.");
+                    Console.WriteLine("empleados: Accede al panel de con los perfiles del manejo de detallesEmpleados.");
                     Console.WriteLine();
                     Console.WriteLine("finanzas: Maneja todo lo relacionado a las finanzas de tu empresa.");
                     Console.WriteLine();
@@ -119,13 +119,6 @@ namespace Admin_Page
             }
         }
 
-        public static void editarEmpleados()
-        {
-
-            Empleados felipeHernandez = new Empleados("Felipe Hernández", "fhernandez@fortechint.com", "03700973088", "8299193941", "778107623", "Banco Popular", "Ahorro", 5000, 40, 200000);
-
-            felipeHernandez.displayEmployeeDetails();
-        }
 
     }
 }
